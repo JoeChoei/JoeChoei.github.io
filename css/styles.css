@@ -1,0 +1,76 @@
+/*
+Student Name: Joseph Choei
+File Name: styles.css
+*/
+
+/* Style rules for body */
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&display=swap');
+h1, h2 {
+	font-family: "Noto Sans KR", sans-serif;
+}
+
+body {
+	background-color: 
+}
+
+header {
+	width: 30%;
+	float: left;
+	margin-top: 4em;
+}
+
+header img {
+	float: left;
+	padding-right: 1em;
+}
+	
+nav {
+	width: 55%;
+	float:right;
+	margin: 5em 3em 0 0;
+}
+
+nav ul {
+	list-style-type: none;
+	margin: 0;
+	text-align: right;
+}
+
+nav li {
+	display: inline-block;
+	font-size: 1.5em;
+}
+
+nav li a {
+	display: block;
+	text-align: center;
+	padding: 0.5em 1em;
+	text-decoration: none;
+}
+
+main {
+	font-size:1.3em;
+	clear: left;
+	display: block;
+
+	width: 50%;
+	margin: 12px auto auto;
+}
+
+table {
+	width: 100;
+}
+
+th, td {
+	padding: 30px;
+}
+
+/* Media Query for mobile viewport */
+@media all and (max-width: 480px) {
+	body {
+		background-color: #DC143C;
+		color: #fff;
+	}
+	
+}
